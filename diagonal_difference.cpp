@@ -23,7 +23,7 @@ int diagonalDifference(vector<vector<int>> arr) {
 
 int main(int argc, char* argv[]) {
     if (argc != 3) {
-        cout << "Run the code with the following command: ./project3 [input_file] [output_file]" << endl;
+        cout << "Run the code with the following command: ./diagonal_difference [input_file] [output_file]" << endl;
         return 1;
     }
     cout << "input file: " << argv[1] << endl;
